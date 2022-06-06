@@ -1,0 +1,38 @@
+.version, .details {
+  display: flex;
+  align-items: center;
+}
+
+.software, .copy, .footer-link {
+  margin: 0 3px;
+}
+
+.footer-link {
+  color: #dddddd;
+  transition: 0.075s color ease-in-out;
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: #AAAAAA;
+  transition: 0.075s color ease-in-out;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.software span {
+  margin-left: 3px;
+}
+
+.fa-python {
+  color: #306998;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+.fa-rust {
+  color: #B7410E
+}

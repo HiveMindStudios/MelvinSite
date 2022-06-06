@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 45px;
+  background-color: #333333AA;
+  height: 48px;
+  border-radius: 12px;
+  padding: 0 10px;
+}
+
+.nav-link {
+  margin: 0 3px;
+  color: #dddddd;
+  transition: 0.075s color ease-in-out;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #AAAAAA;
+  transition: 0.075s color ease-in-out;
+}
