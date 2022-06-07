@@ -1,0 +1,14 @@
+.commands-wrapper {
+  width: 85%;
+  height: calc(100vh - 192px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #333333AA;
+  border-radius: 12px;
+}
+
+.command {
+  margin: 40px 0;
+}

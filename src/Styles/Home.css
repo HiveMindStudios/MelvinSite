@@ -25,6 +25,21 @@
 
 .button-container {
   margin-top: 30px;
+  height: 80px
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  margin-top: 50px;
+}
+
+.explore span {
+  margin: 5px 0;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 1.2em;
 }
 
 .intro-link {

@@ -7,16 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   background-color: #000000;
-  background:
-    linear-gradient(90deg, #000000 calc(75px - 3px), transparent 1%) center, 
+}
+
+.background {
+  z-index: -1000;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: linear-gradient(90deg, #000000 calc(75px - 3px), transparent 1%)
+      center,
     linear-gradient(#000000 calc(75px - 3px), transparent 1%) center, #ffffff;
   background-size: 75px 75px;
-  animation: dots 4000s linear infinite;
+  animation: dots 86400s linear infinite;
 }
 
 @keyframes dots {
-  0% { background-position: 0 0; }
-  100% { background-position: 1000% -1000%; }
+  0% {
+    background-position: -20000% 20000%;
+  }
+  100% {
+    background-position: 20000% -20000%;
+  }
 }
 
 code {

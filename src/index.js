@@ -5,11 +5,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Editions from './Pages/Editions'
 import Commands from './Pages/Commands'
+import 'aos/dist/aos.css'
 import './Styles/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
+    <div className='background'></div>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
