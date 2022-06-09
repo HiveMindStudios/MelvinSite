@@ -3,6 +3,8 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import '../Styles/Editions.css'
 import * as AOS from 'aos'
+import melvin from '../Assets/Melvin.png'
+import melvinjs from '../Assets/MelvinJS.png'
 
 const Editions = () => {
   useEffect(() => {
@@ -16,12 +18,15 @@ const Editions = () => {
       <div className='content'>
         <div className='editions'>
           <div className='edition' data-aos="fade-in" data-aos-duration="1000">
+            <img className="edition-logo" src={melvin} alt="Melvin Logo" />
             Python
           </div>
           <div className='edition' data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
+          <img className="edition-logo" src={melvinjs} alt="MelvinJS Logo" />
             JS
           </div>
           <div className='edition' data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+            <img className="edition-logo soon" src={melvin} alt="MelvinRS Logo" />
             Rust
           </div>
         </div>

@@ -1,5 +1,5 @@
 .commands-wrapper {
-  width: 85%;
+  width: 85vw;
   height: calc(100vh - 192px);
   display: flex;
   flex-direction: column;

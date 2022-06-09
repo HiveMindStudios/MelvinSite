@@ -26,3 +26,12 @@
   background-color: #333333AA;
   border-radius: 12px;
 }
+
+.edition-logo {
+  height: 30vh;
+  border-radius: 12px;
+}
+
+.soon {
+  filter: contrast(70%) brightness(15%) blur(10px);
+}

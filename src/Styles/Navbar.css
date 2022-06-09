@@ -2,20 +2,41 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px 45px;
   background-color: #333333AA;
+  width: 85vw;
   height: 48px;
   border-radius: 12px;
-  padding: 0 10px;
+}
+
+.navigation > * {
+  margin: 1.5vh;
 }
 
 .nav-link {
   margin: 0 3px;
   color: #dddddd;
   transition: 0.075s color ease-in-out;
+  text-decoration: none;
 }
 
 .nav-link:hover, .nav-link:focus {
   color: #AAAAAA;
   transition: 0.075s color ease-in-out;
+}
+
+.nav-link-btn {
+  color: #dddddd;
+  border: 1px solid #2b5ecc;
+  width: 8vh;
+  height: 2vh;
+  margin: 20px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link-btn * {
+  margin: 0 5px;
 }
