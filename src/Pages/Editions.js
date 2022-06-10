@@ -5,6 +5,7 @@ import '../Styles/Editions.css'
 import * as AOS from 'aos'
 import melvin from '../Assets/Melvin.png'
 import melvinjs from '../Assets/MelvinJS.png'
+import melvinrs from '../Assets/MelvinRS.png'
 
 const Editions = () => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const Editions = () => {
             JS
           </div>
           <div className='edition' data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
-            <img className="edition-logo soon" src={melvin} alt="MelvinRS Logo" />
+            <img className="edition-logo soon" src={melvinrs} alt="MelvinRS Logo" />
             Rust
           </div>
         </div>

@@ -68,7 +68,7 @@ const Home = () => {
           <FontAwesomeIcon className='card-icon' icon={solid('dice-d20')}></FontAwesomeIcon>
           <div className='card-desc'>
             <h1>Dice</h1>
-            <span>The most sofisticated rolling algorithm in Discord history!</span>
+            <span>The most sophisticated rolling algorithm in Discord history!</span>
           </div>
         </div>
       </div>

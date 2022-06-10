@@ -25,7 +25,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={brands('js')} />
           <span>{version.melvin.js}</span>
         </a>
-        <a className="footer-link no-underline software" href="https://github.com/VectorKappa/Melvin/tree/rs" target="_blank" rel="noreferrer">
+        <a className="footer-link no-underline software" href="https://github.com/VectorKappa/MelvinRS/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={brands('rust')} />
           <span>{version.melvin.rs}</span>
         </a>
@@ -37,8 +37,9 @@ const Footer = () => {
       <div className='details'>
         <div className='links'>
           <Link className='footer-link' to="/contact">Contact</Link>
-          <Link className='footer-link' to="/contact">Status</Link>
-          <Link className='footer-link' to="/contact">Privacy</Link>
+          <Link className='footer-link' to="/status">Status</Link>
+          <Link className='footer-link' to="/privacy">Privacy</Link>
+          <Link className='footer-link' to="/tos">Terms of use</Link>
         </div>
         <div className='copy'>&copy; {new Date().getFullYear()} Melvin Team</div>
       </div>
