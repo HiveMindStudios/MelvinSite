@@ -31,7 +31,3 @@
   height: 30vh;
   border-radius: 12px;
 }
-
-.soon {
-  filter: contrast(70%) brightness(15%) blur(10px);
-}

@@ -27,7 +27,7 @@ const Editions = () => {
             JS
           </div>
           <div className='edition' data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
-            <img className="edition-logo soon" src={melvinrs} alt="MelvinRS Logo" />
+            <img className="edition-logo" src={melvinrs} alt="MelvinRS Logo" />
             Rust
           </div>
         </div>
